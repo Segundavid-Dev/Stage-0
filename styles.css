@@ -19,7 +19,6 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  margin: 2rem;
 }
 
 ul {
@@ -168,5 +167,11 @@ nav ul li a:hover {
 
   .profile-name {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    margin: 2rem;
   }
 }
