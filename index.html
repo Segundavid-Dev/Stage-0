@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hng Stage 0 - Profile Card</title>
+    <!-- css style link -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <article data-testid="test-profile-card" class="profile-card">
+      <!-- main profile card container -->
+
+      <header class="profile-header">
+        <!-- avatar picture -->
+        <figure class="profile-avatar-container">
+          <img
+            src="https://res.cloudinary.com/dbcxxbazn/image/upload/v1760641639/profile-pic_qfcqou.jpg"
+            alt="User profile picture"
+            class="profile-avatar"
+            data-testid="test-user-avatar"
+          />
+        </figure>
+
+        <!-- user info -->
+        <div class="profile-info">
+          <h2 data-testid="test-user-name" class="profile-name">
+            Segun David Olasunkanmi
+          </h2>
+          <p data-testid="test-user-bio" class="profile-bio">
+            Frontend developer passionate about building accessible and
+            responsive web applications. Always learning new technologies and
+            programming concepts
+          </p>
+        </div>
+      </header>
+
+      <!-- social links -->
+      <ul aria-label="social media links" data-testid="test-user-social-links">
+        <li>
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-github"
+            aria-label="Github profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-twitter"
+            aria-label="Twitter profile"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-instagram"
+            aria-label="Instagram profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-hashnode"
+            aria-label="Hashnode profile"
+            ><i class="fa-brands fa-hashnode"></i
+          ></a>
+        </li>
+      </ul>
+
+      <!-- List container -->
+
+      <div class="lists-container">
+        <!-- Hobbies Section -->
+        <section class="list-section">
+          <h3>Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li>Coding side projects</li>
+            <li>Reading tech blogs</li>
+            <li>Playing chess</li>
+            <li>Photography</li>
+            <li>Hiking and outdoor adventures</li>
+          </ul>
+        </section>
+
+        <!-- Dislikes Section -->
+        <section class="list-section">
+          <h3>Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li>Spaghetti code</li>
+            <li>Merge conflicts</li>
+            <li>Network problems</li>
+          </ul>
+        </section>
+
+        <!-- Current time -->
+        <section>
+          <p data-testid="test-user-social-links">current time</p>
+        </section>
+      </div>
+    </article>
+  </body>
+</html>

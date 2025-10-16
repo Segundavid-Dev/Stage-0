@@ -47,3 +47,7 @@ Submission instructions
 Host the completed project (Netlify, GitHub Pages, etc.) and include the live URL.
 Include the GitHub repo link with clear README and instructions to run locally.
 Provide any relevant tests or notes in the repo
+
+
+
+<!-- https://res.cloudinary.com/dbcxxbazn/image/upload/v1760641639/profile-pic_qfcqou.jpg -->
