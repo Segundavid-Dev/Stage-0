@@ -9,7 +9,7 @@
     <!-- font awesome cdn -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
   </head>
   <body>
@@ -37,65 +37,67 @@
             responsive web applications. Always learning new technologies and
             programming concepts
           </p>
+
+          <!-- social links -->
+          <nav
+            aria-label="Social media links"
+            data-testid="test-user-social-links"
+          >
+            <ul>
+              <li>
+                <a
+                  href="https://github.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-github"
+                  aria-label="Github profile"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-twitter"
+                  aria-label="Twitter profile"
+                  ><i class="fa-brands fa-x-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-instagram"
+                  aria-label="Instagram profile"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://hashnode.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-hashnode"
+                  aria-label="Hashnode profile"
+                  ><i class="fa-brands fa-hashnode"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </header>
 
-      <!-- social links -->
-      <ul aria-label="social media links" data-testid="test-user-social-links">
-        <li>
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            data-testid="test-user-social-github"
-            aria-label="Github profile"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            data-testid="test-user-social-twitter"
-            aria-label="Twitter profile"
-            ><i class="fa-brands fa-x-twitter"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            data-testid="test-user-social-instagram"
-            aria-label="Instagram profile"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            data-testid="test-user-social-hashnode"
-            aria-label="Hashnode profile"
-            ><i class="fa-brands fa-hashnode"></i
-          ></a>
-        </li>
-      </ul>
-
       <!-- List container -->
-
       <div class="lists-container">
         <!-- Hobbies Section -->
         <section class="list-section">
           <h3>Hobbies</h3>
           <ul data-testid="test-user-hobbies">
-            <li>Coding side projects</li>
-            <li>Reading tech blogs</li>
-            <li>Playing chess</li>
-            <li>Photography</li>
-            <li>Hiking and outdoor adventures</li>
+            <li>Reading technical concepts</li>
+            <li>Reading tech blogs & articles</li>
+            <li>Watching animes</li>
           </ul>
         </section>
 
@@ -110,10 +112,14 @@
         </section>
 
         <!-- Current time -->
-        <section>
-          <p data-testid="test-user-social-links">current time</p>
+        <section class="list-section">
+          <h3>Current Time</h3>
+          <p data-testid="test-user-time" id="currentTime"></p>
         </section>
       </div>
     </article>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
   </body>
 </html>
