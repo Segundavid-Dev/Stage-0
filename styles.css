@@ -77,6 +77,18 @@ button {
   margin-bottom: 0.5rem;
 }
 
+.profile-info-nav {
+  display: flex;
+  gap: 1.5rem;
+  text-decoration: underline;
+}
+
+.profile-info-nav li a {
+  font-size: 1rem;
+  color: #4a5568;
+  transition: color 0.3s ease;
+}
+
 .profile-bio {
   font-size: 0.95rem;
   color: #4a5568;

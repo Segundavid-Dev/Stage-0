@@ -1,0 +1,63 @@
+input,
+button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-family: inherit;
+  outline: none;
+  border: 2px solid #ccc;
+}
+
+button {
+  width: 100%;
+}
+
+label {
+  cursor: pointer;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-family: inherit;
+  outline: none;
+  border: 2px solid #ccc;
+}
+
+.contact-container {
+  background-color: #fff;
+  padding: 2.5rem;
+  border-radius: 20px;
+  min-width: 750px;
+}
+
+/* media query */
+@media (max-width: 800px) {
+  .contact-container {
+    min-width: 320px;
+  }
+}
+
+.contact-form h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-btn {
+  cursor: pointer;
+  background-color: #fffaf2;
+}
+
+@media (max-width: 900px) {
+  body {
+    margin: 2rem;
+  }
+}
